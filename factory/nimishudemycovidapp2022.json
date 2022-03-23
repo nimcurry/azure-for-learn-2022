@@ -1,0 +1,9 @@
+{
+	"name": "nimishudemycovidapp2022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "382a6b5a-0fef-4e2b-9a21-c5d9fd07e4b8",
+		"tenantId": "1414033e-bc6f-4e71-904d-5a7314a39eb0"
+	}
+}
