@@ -1,0 +1,24 @@
+{
+	"name": "tr_trigger_hospital_ingestions_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc_data",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 3,
+				"startTime": "2022-03-25T12:07:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

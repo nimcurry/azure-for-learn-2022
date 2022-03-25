@@ -1,0 +1,9 @@
+{
+	"name": "azurecovid2022",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10857e42-2813-4638-bb0b-53a1264a3f8c",
+		"tenantId": "1414033e-bc6f-4e71-904d-5a7314a39eb0"
+	}
+}

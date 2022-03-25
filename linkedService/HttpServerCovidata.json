@@ -1,0 +1,19 @@
+{
+	"name": "HttpServerCovidata",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "https://.com",
+		"parameters": {
+			"sourceBaseURL": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "@{linkedService().sourceBaseURL}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
