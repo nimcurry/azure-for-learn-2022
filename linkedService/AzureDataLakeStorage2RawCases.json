@@ -1,0 +1,12 @@
+{
+	"name": "AzureDataLakeStorage2RawCases",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://udemystudy2022transform.dfs.core.windows.net",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDdEMzkxREI3LTU0QjMtNDc3OC1BOUYzLTJEQkI3Q0EyQUFENF9hNzkzMzk2Mi1iYzYwLTQyZjMtODkyNi0yMTA0ZWE4ZmM3YzgiDQp9"
+		}
+	}
+}
