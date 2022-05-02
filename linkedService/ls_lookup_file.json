@@ -1,0 +1,12 @@
+{
+	"name": "ls_lookup_file",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://chapter7udemy2022.dfs.core.windows.net",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDc2Q0NBRDM3LTQxNUYtNDZGOC1BNzQ3LUI1Rjc3MTFCM0FGRV80OGZiYmJkZi1hYzM0LTRkMTktOGFjZC04MGY1YzQ2MGE3ZGMiDQp9"
+		}
+	}
+}
